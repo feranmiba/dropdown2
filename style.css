@@ -1,0 +1,180 @@
+/*---------------------------------------------------*/
+/*basic setup*/
+/*---------------------------------------------------*/
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+/*---------------------------------------------------*/
+/*BUTTONS AND HEADER*/
+/*---------------------------------------------------*/
+
+.btn {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+  margin: 0.5%;
+  border-radius: 10mm;
+  padding: 10px 10px 10px 10px;
+}
+.btn:hover,
+.btn:active {
+  color: hsl(0, 0%, 8%);
+}
+
+.tin {
+  margin-top: -4%;
+  margin-left: 18%;
+}
+
+.log {
+  margin-top: 2%;
+  margin-left: 65%;
+}
+
+.bu {
+  text-decoration: none;
+  color: hsl(0, 0%, 41%);
+}
+.bu2 {
+  margin-left: 10%;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  color: hsl(0, 0%, 41%);
+  border-radius: 3mm;
+}
+.bu2:hover,
+.bu2:active {
+  border: 1.5mm hsl(228, 45%, 44%) dotted;
+  border-style: dotted;
+}
+
+#snap {
+  margin-top: 1.5%;
+  color: hsl(0, 0%, 8%);
+  margin-left: 2%;
+  font-weight: 1000;
+  text-transform: lowercase;
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*---------------------------------------------------*/
+/*REUSEABLE COMPONENT*/
+/*---------------------------------------------------*/
+.row {
+  /* width: 1365px;*/
+  background-color: hsl(0, 0%, 98%);
+}
+
+/*---------------------------------------------------*/
+/*IMAGE*/
+/*---------------------------------------------------*/
+.hero {
+  height: 580px;
+  width: 480px;
+  margin-left: 8%;
+  margin-top: -7%;
+}
+.remote {
+  margin-top: -60%;
+  font-size: 18px;
+  color: hsl(228, 45%, 44%);
+}
+#get {
+  font-size: 18px;
+  font-style: normal;
+  /*font-weight: 500;*/
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: hsl(228, 45%, 44%);
+  margin-left: 10%;
+}
+#cake {
+  font-size: 50px;
+  font-weight: 1000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: hsl(0, 0%, 8%);
+  margin-left: 10%;
+}
+.more {
+  position: absolute;
+  margin-left: -92%;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  background-color: hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 98%);
+  border-radius: 3mm;
+}
+.more:hover,
+.more:active {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(0, 0%, 8%);
+  border-style: solid;
+}
+.winner {
+  margin-top: 30%;
+}
+.lock {
+  margin-top: 38%;
+}
+#check {
+  position: absolute;
+  margin-left: -92%;
+}
+#check1 {
+  position: absolute;
+  margin-left: -80%;
+}
+#check2 {
+  position: absolute;
+  margin-left: -70%;
+}
+#check3 {
+  position: absolute;
+  margin-left: -60%;
+}
+/*---------------------------------------------------*/
+/*ACTIVE STATE HIDDEN*/
+/*---------------------------------------------------*/
+.feat {
+  margin-top: 1%;
+  position: absolute;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3mm;
+  background-color: hsl(0, 0%, 100%);
+}
+.them {
+  margin-top: 10%;
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(228, 45%, 44%);
+}
+.feel {
+  margin-top: 1%;
+  position: absolute;
+  margin-left: 12%;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3mm;
+  background-color: hsl(0, 0%, 100%);
+}
+.up {
+  margin-left: -4.7%;
+}
+.up1 {
+  margin-left: -4.7%;
+}
+.hidden {
+  display: none;
+}
+.heroes {
+  display: none;
+}
+.hamburger {
+  display: none;
+}

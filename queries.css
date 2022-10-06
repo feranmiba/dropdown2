@@ -1,0 +1,203 @@
+/* big tablet to 1200px (width smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px) {
+  .winner {
+    margin-top: 28%;
+  }
+  .more {
+    margin-top: 20%;
+    margin-left: -70%;
+  }
+  #cake {
+    font-size: 50px;
+    font-weight: 1000;
+    margin-left: 5%;
+    margin-top: -30%;
+    margin-top: -8%;
+    position: absolute;
+  }
+  #get {
+    font-size: 20px;
+    margin-top: 4%;
+    margin-left: 2%;
+  }
+  .lock {
+    margin-top: 55%;
+  }
+  .hero {
+    margin-top: 2%;
+  }
+}
+
+/*small tablet to big tablet:from 768px to1023px*/
+@media only screen and (max-width: 1023px) {
+  #cake {
+    font-size: 50px;
+    font-weight: 1000;
+    margin-left: -1%;
+    margin-top: -60%;
+    margin-top: -10%;
+    position: absolute;
+  }
+  .hero {
+    margin-top: 2%;
+    width: 370px;
+  }
+  #get {
+    font-size: 20px;
+    margin-top: -30%;
+    margin-left: 2%;
+  }
+  .lock {
+    margin-top: 76%;
+  }
+  .hero {
+    margin-top: 10%;
+  }
+  .winner {
+    margin-top: 48%;
+  }
+  .log {
+    position: absolute;
+    display: inline-block;
+    margin-top: 4%;
+    margin-left: 25%;
+  }
+  .bu2 {
+    position: absolute;
+    margin-top: -50%;
+    margin-left: 70%;
+  }
+}
+
+/*small phones to small tablets: from 481 to767px*/
+@media only screen and (max-width: 767px) {
+}
+
+/*small phones to small tablets: from 0  to 480px*/
+@media only screen and (max-width: 480px) {
+  .row {
+    background-color: hsl(0, 0%, 98%);
+    height: 900px;
+  }
+  .hero {
+    display: none;
+  }
+  .heroes {
+    display: inline-block;
+    width: 360px;
+    height: 360px;
+    margin-top: 18%;
+  }
+  .btn {
+    display: inline-block;
+  }
+  .tin {
+    margin-left: 60%;
+    position: absolute;
+    background-color: white;
+    padding-bottom: 500px;
+    padding-top: 80px;
+  }
+  .log {
+    position: absolute;
+    display: inline-block;
+    margin-top: 75%;
+    margin-left: 60%;
+  }
+  .bu {
+    margin-left: 110%;
+  }
+  .bu2 {
+    position: absolute;
+    margin-top: 60%;
+    margin-left: 40%;
+    padding: 10px 20px 10px 20px;
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(0, 0%, 8%);
+    border-style: solid;
+  }
+  .bu2:hover,
+  .bu2:active {
+    display: none;
+  }
+  .remote {
+    margin-top: 20%;
+    font-size: 18px;
+    color: hsl(228, 45%, 44%);
+  }
+  #cake {
+    font-size: 38px;
+    font-weight: 800;
+    margin-left: 2%;
+  }
+
+  #get {
+    font-size: 16px;
+    margin-top: 30%;
+    margin-left: 2%;
+  }
+  .winner {
+    margin-top: 40%;
+  }
+  .more {
+    margin-top: 20%;
+    margin-left: -70%;
+  }
+  .lock {
+    margin-top: 38%;
+  }
+  #check {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: -99%;
+  }
+  #check1 {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: -67%;
+  }
+  #check2 {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: -48%;
+  }
+  #check3 {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: -23%;
+  }
+  .hamburger {
+    display: inline-block;
+    margin-left: 85%;
+    position: absolute;
+    margin-top: -6%;
+    color: hsl(0, 0%, 41%);
+  }
+  .close {
+    display: inline-block;
+    margin-left: 65%;
+    position: absolute;
+    margin-top: -26%;
+  }
+  .feat {
+    margin-top: 20%;
+    position: absolute;
+    margin-left: -75%;
+    display: inline-block;
+  }
+  .them {
+    padding: 0px 0px 10px 0px;
+
+    margin-left: 20%;
+    margin-top: 0%;
+    font-size: 12px;
+    display: inline-block;
+    color: hsl(228, 45%, 44%);
+  }
+  .hidden {
+    display: none;
+  }
+  .hide {
+    display: none;
+  }
+}
